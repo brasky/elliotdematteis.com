@@ -41,9 +41,11 @@
     "linuxFxVersion": {
       "value": "DOTNETCORE|3.0"
     },
-    "GIPHY_KEY": {
+    "GIPHYKEY": {
       "reference": {
-        "keyVault": { "id": "elliotdematteiskv" },
+        "keyVault": {
+          "id": "/subscriptions/ce317365-50c0-488b-98f6-13ed2aca9068/resourcegroups/elliotdematteis.com/providers/Microsoft.KeyVault/vaults/elliotdematteiskv"
+        },
         "secretName": "GIPHYKEY"
       }
     }

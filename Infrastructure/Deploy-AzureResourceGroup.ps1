@@ -1,7 +1,7 @@
 #Requires -Version 3.0
 
 Param(
-    [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
+    [string] $ResourceGroupLocation = 'US West',
     [string] $ResourceGroupName = 'elliotdematteis.com',
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
@@ -16,7 +16,7 @@ Param(
 try {
     [Microsoft.Azure.Common.Authentication.AzureSession]::ClientFactory.AddUserAgent("VSAzureTools-$UI$($host.name)".replace(' ','_'), '3.0.0')
 } catch { }
-
+#Connect-AzureRmAccount
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version 3
 

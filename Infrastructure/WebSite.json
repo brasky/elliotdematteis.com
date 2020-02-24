@@ -41,8 +41,8 @@
       "linuxFxVersion": {
         "type": "string"
       },
-      "GIPHY_KEY": {
-        "type": "secureObject"
+      "GIPHYKEY": {
+        "type": "string"
       }
     },
     "resources": [
@@ -78,7 +78,7 @@
                 "displayName": "WebAppSettings"
               },
               "properties": {
-                "GIPHY_KEY": "[parameters('GIPHY_KEY')]"
+                "GIPHYKEY": "[parameters('GIPHYKEY')]"
               }
             }
           ]
