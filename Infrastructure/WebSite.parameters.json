@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "ce317365-50c0-488b-98f6-13ed2aca9068"
+    },
+    "name": {
+      "value": "elliotdematteis"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "hostingEnvironment": {
+      "value": ""
+    },
+    "hostingPlanName": {
+      "value": "ASP-elliotdematteiscom-8436"
+    },
+    "serverFarmResourceGroup": {
+      "value": "elliotdematteis.com"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "sku": {
+      "value": "Basic"
+    },
+    "skuCode": {
+      "value": "B1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+    "linuxFxVersion": {
+      "value": "DOTNETCORE|3.0"
+    },
+    "GIPHY_KEY": {
+      "reference": {
+        "keyVault": { "id": "elliotdematteiskv" },
+        "secretName": "GIPHYKEY"
+      }
+    }
+  }
+}
