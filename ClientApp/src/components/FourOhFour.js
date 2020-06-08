@@ -22,7 +22,7 @@ export class FourOhFour extends Component {
         return (
             <div>
                 <h1 className="text-center">404</h1>
-                <img className="mx-auto d-block" src={gif.gifUrl}/>
+                <img alt="A hopefully funny but random gif" className="mx-auto d-block" src={gif.gifUrl}/>
             </div>
         );
     }
