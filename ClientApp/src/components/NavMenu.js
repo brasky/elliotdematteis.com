@@ -36,9 +36,12 @@ export class NavMenu extends Component {
                 <NavItem>
                   <NavLink tag={Link} className="text-dark" to="/Projects">Projects</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/Contact">Contact</NavLink>
-                </NavItem>
+                    <div className="d-flex flex-wrap align-items-center logo">
+                        <a href="https://twitter.com/relliotd" target="_blank" rel="noopener noreferrer"><img src="/Images/Twitter_Social_Icon_Circle_Color.png" alt="Twitter logo" height="25px" width="25px" /></a>
+                    </div>
+                    <div className="d-flex flex-wrap align-items-center logo">
+                        <a href="https://github.com/brasky" target="_blank" rel="noopener noreferrer"><img src="/Images/GitHub-Mark-32px.png" alt="GitHub logo" height="25px" width="25px" /></a>
+                    </div>
               </ul>
             </Collapse>
           </Container>

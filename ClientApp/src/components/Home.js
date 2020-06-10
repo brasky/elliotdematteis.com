@@ -6,9 +6,8 @@ export class Home extends Component {
   render () {
     return (
       <div>
-            <h1 className="text-center">Hello</h1>
-            <p className="text-center">My name is Elliot and this will eventually be a website about me.</p>
-
+            <h1 className="text-center">Elliot DeMatteis</h1>
+            <p className="text-center">My name is Elliot and I'm a site reliability engineer working at Microsoft on Azure Information Protection</p>
       </div>
     );
   }
