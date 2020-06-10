@@ -11,7 +11,7 @@ export class Projects extends Component {
                     <div className="list-group-item flex-column align-items-start">
                         <div className="d-flex w-100 justify-content-between">
                             <h5 className="mb-1">python-ssp</h5>
-                            <small><a href="https://github.com/brasky/python-ssp">github</a></small>
+                            <small><a href="https://github.com/brasky/python-ssp" target="_blank" rel="noopener noreferrer">github</a></small>
                         </div>
                         <p className="mb-1">A python library that extends python-docx to be able to work with FedRAMP security plan templates.</p>
                     </div>
